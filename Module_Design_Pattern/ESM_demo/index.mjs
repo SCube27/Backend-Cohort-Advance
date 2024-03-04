@@ -8,9 +8,9 @@
 // if we convert searching file in .mjs format still the exports are in CJS format and hence this wont work
 import searches from './searching.mjs'; 
 
-// The above import will only run if the functin is exported as default (in this case binary_search has been) hence its called a default import
+// The above import will only run if the function is exported as default (in this case binary_search has been) hence its called a default import
 
-// So for linera search to work we have to do a named import
+// So for linear search to work we have to do a named import
 import { linear_search } from './searching.mjs';
 
 console.log(searches); 
